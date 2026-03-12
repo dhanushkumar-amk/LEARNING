@@ -10,6 +10,7 @@ print(c)
 print(d)
 
 
+# multiple elment assignmwnr
 name, age, balance = "dhanush", 21, 2000.00
 
 print(name)

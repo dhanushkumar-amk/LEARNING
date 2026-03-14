@@ -87,5 +87,24 @@ print(sum(list2))
 for i in list2:
     print(i)
 
+# revsere sorting
+list2.sort(reverse=True)
+print(list2)
+
+# nested list
+nestedList = [
+    [1, 2],
+    [3, 4],
+    [5, 6]
+]
+print(nestedList)
+print(nestedList[0][0])
+
+# iterate the nested list
+for i in nestedList:
+    for j in i:
+        print(j, end=" ", sep=" ")
+    print()
+
 
 

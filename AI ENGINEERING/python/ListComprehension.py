@@ -20,6 +20,9 @@ even = [i for i in arr if i % 2 == 0]
 print(odd)
 print(even)
 
+
+
+
 # list comprehension with if-else
 # odd = [i if i % 2 != 0 else "even" for i in arr]
 # print(odd)

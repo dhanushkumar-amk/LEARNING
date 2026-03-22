@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer Tokenizer Explainer</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+
+        h1 {
+            text-align: center;
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 2.5em;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #718096;
+            margin-bottom: 40px;
+            font-size: 1.1em;
+        }
+
+        .input-section {
+            margin-bottom: 30px;
+        }
+
+        label {
+            display: block;
+            font-weight: 600;
+            color: #2d3748;
+            margin-bottom: 10px;
+            font-size: 1.1em;
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 15px;
+            border: 2px solid #e2e8f0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s;
+        }
+
+        input[type="text"]:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+        }
+
+        .tokenizer-select {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 30px;
+            flex-wrap: wrap;
+        }
+
+        .tokenizer-btn {
+            flex: 1;
+            min-width: 150px;
+            padding: 12px 20px;
+            border: 2px solid #e2e8f0;
+            background: white;
+            border-radius: 10px;
+            cursor: pointer;
+            transition: all 0.3s;
+            font-weight: 600;
+            color: #4a5568;
+        }
+
+        .tokenizer-btn:hover {
+            border-color: #667eea;
+            transform: translateY(-2px);
+        }
+
+        .tokenizer-btn.active {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-color: transparent;
+        }
+
+        .stage {
+            margin-bottom: 40px;
+            padding: 25px;
+            background: #f7fafc;
+            border-radius: 15px;
+            border-left: 5px solid #667eea;
+        }
+
+        .stage-title {
+            font-size: 1.3em;
+            color: #2d3748;
+            margin-bottom: 15px;
+            font-weight: 700;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .stage-number {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+        }
+
+        .stage-description {
+            color: #718096;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .visual-output {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            padding: 20px;
+            background: white;
+            border-radius: 10px;
+            min-height: 80px;
+            align-items: center;
+        }
+
+        .token {
+            padding: 10px 16px;
+            border-radius: 8px;
+            font-family: 'Courier New', monospace;
+            font-weight: 600;
+            transition: all 0.3s;
+            cursor: pointer;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .token:hover {
+            transform: scale(1.05);
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+
+        .token-text {
+            font-size: 14px;
+        }
+
+        .token-id {
+            font-size: 11px;
+            opacity: 0.7;
+        }
+
+        .char-token {
+            background: #fef3c7;
+            color: #92400e;
+            border: 2px solid #fbbf24;
+        }
+
+        .word-token {
+            background: #dbeafe;
+            color: #1e40af;
+            border: 2px solid #3b82f6;
+        }
+
+        .subword-token {
+            background: #d1fae5;
+            color: #065f46;
+            border: 2px solid #10b981;
+        }
+
+        .byte-token {
+            background: #fce7f3;
+            color: #9f1239;
+            border: 2px solid #ec4899;
+        }
+
+        .embedding-viz {
+            display: flex;
+            gap: 15px;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .embedding-token {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .embedding-vector {
+            display: flex;
+            gap: 2px;
+        }
+
+        .vector-bar {
+            width: 8px;
+            background: linear-gradient(180deg, #667eea 0%, #764ba2 100%);
+            border-radius: 2px;
+            transition: all 0.3s;
+        }
+
+        .arrow {
+            font-size: 30px;
+            color: #cbd5e0;
+            margin: 0 10px;
+        }
+
+        .info-box {
+            background: #edf2f7;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 15px;
+            border-left: 4px solid #4299e1;
+        }
+
+        .info-box strong {
+            color: #2d3748;
+        }
+
+        .comparison-table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+            background: white;
+            border-radius: 10px;
+            overflow: hidden;
+        }
+
+        .comparison-table th {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 15px;
+            text-align: left;
+            font-weight: 600;
+        }
+
+        .comparison-table td {
+            padding: 12px 15px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .comparison-table tr:hover {
+            background: #f7fafc;
+        }
+
+        @keyframes slideIn {
+            from {
+                opacity: 0;
+                transform: translateX(-20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateX(0);
+            }
+        }
+
+        .token {
+            animation: slideIn 0.3s ease-out;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🤖 Transformer Tokenizer Explained</h1>
+        <p class="subtitle">See how different tokenizers break down text into tokens</p>
+
+        <div class="input-section">
+            <label for="inputText">Enter your text:</label>
+            <input type="text" id="inputText" value="Hello world! How are you?" placeholder="Type something...">
+        </div>
+
+        <div class="tokenizer-select">
+            <button class="tokenizer-btn active" data-type="bpe">BPE (GPT)</button>
+            <button class="tokenizer-btn" data-type="wordpiece">WordPiece (BERT)</button>
+            <button class="tokenizer-btn" data-type="unigram">Unigram (T5)</button>
+            <button class="tokenizer-btn" data-type="char">Character-level</button>
+        </div>
+
+        <!-- Stage 1: Text Preprocessing -->
+        <div class="stage">
+            <div class="stage-title">
+                <span class="stage-number">1</span>
+                Text Preprocessing
+            </div>
+            <p class="stage-description">The raw text is normalized (lowercasing, unicode normalization, etc.) and prepared for tokenization.</p>
+            <div class="visual-output" id="preprocessing"></div>
+        </div>
+
+        <!-- Stage 2: Tokenization -->
+        <div class="stage">
+            <div class="stage-title">
+                <span class="stage-number">2</span>
+                Tokenization
+            </div>
+            <p class="stage-description">Text is split into tokens using the selected algorithm. Each tokenizer has different rules for splitting.</p>
+            <div class="visual-output" id="tokens"></div>
+            <div class="info-box" id="tokenInfo"></div>
+        </div>
+
+        <!-- Stage 3: Token to ID Mapping -->
+        <div class="stage">
+            <div class="stage-title">
+                <span class="stage-number">3</span>
+                Token → ID Conversion
+            </div>
+            <p class="stage-description">Each token is mapped to a unique integer ID from the model's vocabulary.</p>
+            <div class="visual-output" id="tokenIds"></div>
+        </div>
+
+        <!-- Stage 4: Embedding Lookup -->
+        <div class="stage">
+            <div class="stage-title">
+                <span class="stage-number">4</span>
+                Embedding Lookup
+            </div>
+            <p class="stage-description">Each token ID is converted to a dense vector representation (embedding) that the model can process.</p>
+            <div class="visual-output embedding-viz" id="embeddings"></div>
+        </div>
+
+        <!-- Comparison Table -->
+        <div class="stage">
+            <div class="stage-title">
+                <span class="stage-number">📊</span>
+                Tokenizer Comparison
+            </div>
+            <table class="comparison-table">
+                <thead>
+                    <tr>
+                        <th>Algorithm</th>
+                        <th>Used By</th>
+                        <th>Strategy</th>
+                        <th>Key Feature</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>BPE</strong></td>
+                        <td>GPT, GPT-2, GPT-3, RoBERTa</td>
+                        <td>Merge most frequent byte pairs</td>
+                        <td>Handles rare words well</td>
+                    </tr>
+                    <tr>
+                        <td><strong>WordPiece</strong></td>
+                        <td>BERT, DistilBERT</td>
+                        <td>Maximize likelihood of training data</td>
+                        <td>Uses ## prefix for subwords</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Unigram</strong></td>
+                        <td>T5, ALBERT, XLNet</td>
+                        <td>Probabilistic segmentation</td>
+                        <td>Multiple possible tokenizations</td>
+                    </tr>
+                    <tr>
+                        <td><strong>Character</strong></td>
+                        <td>Some small models</td>
+                        <td>Split into individual characters</td>
+                        <td>No unknown tokens, very long sequences</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+    <script>
+        const input = document.getElementById('inputText');
+        const buttons = document.querySelectorAll('.tokenizer-btn');
+        let currentTokenizer = 'bpe';
+
+        // Tokenizer implementations (simplified)
+        const tokenizers = {
+            bpe: (text) => {
+                // Simplified BPE: splits on spaces and common punctuation
+                const tokens = [];
+                const words = text.split(/(\s+|[.,!?;:])/);
+                words.forEach(word => {
+                    if (word.trim()) {
+                        if (word.length > 4) {
+                            // Simulate subword splitting
+                            tokens.push(word.slice(0, -2));
+                            tokens.push(word.slice(-2));
+                        } else {
+                            tokens.push(word);
+                        }
+                    }
+                });
+                return tokens;
+            },
+            wordpiece: (text) => {
+                // Simplified WordPiece
+                const tokens = [];
+                const words = text.split(/\s+/);
+                words.forEach((word, idx) => {
+                    if (word.length > 4) {
+                        tokens.push(word.slice(0, -3));
+                        tokens.push('##' + word.slice(-3));
+                    } else {
+                        tokens.push(word);
+                    }
+                });
+                return tokens;
+            },
+            unigram: (text) => {
+                // Simplified Unigram
+                const tokens = [];
+                const words = text.split(/(\s+|[.,!?;:])/);
+                words.forEach(word => {
+                    if (word.trim()) {
+                        if (word.length > 5) {
+                            const mid = Math.floor(word.length / 2);
+                            tokens.push('▁' + word.slice(0, mid));
+                            tokens.push(word.slice(mid));
+                        } else {
+                            tokens.push('▁' + word);
+                        }
+                    }
+                });
+                return tokens;
+            },
+            char: (text) => {
+                return text.split('').filter(c => c.trim() || c === ' ');
+            }
+        };
+
+        const tokenInfo = {
+            bpe: "BPE (Byte Pair Encoding) iteratively merges the most frequent pairs of bytes/characters. It starts with characters and builds up common subwords. Great for handling rare words!",
+            wordpiece: "WordPiece uses ## to indicate subword continuation. It maximizes the likelihood of the training data when choosing splits. Used in BERT and many Google models.",
+            unigram: "Unigram uses ▁ to mark word boundaries and builds a probabilistic model. It can have multiple valid tokenizations and picks the most likely one.",
+            char: "Character-level tokenization splits text into individual characters. Simple but creates very long sequences. No out-of-vocabulary issues!"
+        };
+
+        function tokenize() {
+            const text = input.value;
+            const tokens = tokenizers[currentTokenizer](text);
+
+            // Stage 1: Preprocessing
+            const preprocessing = document.getElementById('preprocessing');
+            preprocessing.innerHTML = `<div class="token word-token"><div class="token-text">"${text}"</div></div>`;
+
+            // Stage 2: Tokens
+            const tokensDiv = document.getElementById('tokens');
+            tokensDiv.innerHTML = tokens.map((token, idx) => `
+                <div class="token ${getTokenClass()}" style="animation-delay: ${idx * 0.05}s">
+                    <div class="token-text">${escapeHtml(token)}</div>
+                </div>
+            `).join('');
+
+            document.getElementById('tokenInfo').innerHTML = `<strong>How it works:</strong> ${tokenInfo[currentTokenizer]}`;
+
+            // Stage 3: Token IDs
+            const tokenIdsDiv = document.getElementById('tokenIds');
+            tokenIdsDiv.innerHTML = tokens.map((token, idx) => {
+                const id = Math.abs(hashCode(token)) % 50000;
+                return `
+                    <div class="token ${getTokenClass()}" style="animation-delay: ${idx * 0.05}s">
+                        <div class="token-text">${escapeHtml(token)}</div>
+                        <div class="token-id">ID: ${id}</div>
+                    </div>
+                `;
+            }).join('');
+
+            // Stage 4: Embeddings
+            const embeddingsDiv = document.getElementById('embeddings');
+            embeddingsDiv.innerHTML = tokens.slice(0, 5).map((token, idx) => {
+                const vectorHeight = Array.from({length: 8}, () => Math.random() * 60 + 20);
+                return `
+                    <div class="embedding-token" style="animation-delay: ${idx * 0.05}s">
+                        <div class="token ${getTokenClass()}">
+                            <div class="token-text">${escapeHtml(token)}</div>
+                        </div>
+                        <div class="embedding-vector">
+                            ${vectorHeight.map(h => `<div class="vector-bar" style="height: ${h}px"></div>`).join('')}
+                        </div>
+                    </div>
+                `;
+            }).join('<span class="arrow">→</span>') + (tokens.length > 5 ? '<span class="token subword-token"><div class="token-text">...</div></span>' : '');
+        }
+
+        function getTokenClass() {
+            const classes = {
+                bpe: 'subword-token',
+                wordpiece: 'word-token',
+                unigram: 'byte-token',
+                char: 'char-token'
+            };
+            return classes[currentTokenizer];
+        }
+
+        function hashCode(str) {
+            let hash = 0;
+            for (let i = 0; i < str.length; i++) {
+                const char = str.charCodeAt(i);
+                hash = ((hash << 5) - hash) + char;
+                hash = hash & hash;
+            }
+            return hash;
+        }
+
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        buttons.forEach(btn => {
+            btn.addEventListener('click', () => {
+                buttons.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                currentTokenizer = btn.dataset.type;
+                tokenize();
+            });
+        });
+
+        input.addEventListener('input', tokenize);
+        tokenize();
+    </script>
+</body>
+</html>

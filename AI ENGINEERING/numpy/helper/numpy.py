@@ -130,5 +130,79 @@ print("Dot product (1D):", np.dot(a, b))        # 1*4 + 2*5 + 3*6 = 32
 
 A = np.array([[1, 2], [3, 4]])
 B = np.array([[5, 6], [7, 8]])
-print("Matrix multiplication:\n", A @ B)
+print("Matrix multiplication:\n", A @ B)  #
+
+
+#  Broadcasting
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+scalar = 10
+print("Add scalar (broadcasting):\n", arr + scalar)
+
+vector = np.array([100, 200, 300])
+print("Add row vector:\n", arr + vector)
+
+# Aggregate function
+arr = np.array([[1, 2, 3],
+                [4, 5, 6]])
+
+print("Sum:", np.sum(arr))           # 21
+print("Sum along rows (axis=1):", np.sum(arr, axis=1))  # sum along rows
+print("Mean:", np.mean(arr)) # mean or average of the array elements
+print("Standard deviation:", np.std(arr)) # deviation from the mean
+print("Max:", np.max(arr)) # maximum value
+print("Min:", np.min(arr)) # minimum value
+
+# Boolean indexing
+arr = np.array([1, 3, 5, 7, 9, 2, 8])
+
+mask = arr > 5
+print("Boolean mask:", mask) # return true or false based on the condition => [False False False  True  True False  True]
+print("Elements > 5:", arr[mask]) # return the elements that satisfy the condition => [7 9 8]
+# or directly:
+print("Elements > 5:", arr[arr > 5]) # return the elements that satisfy the condition => [7 9 8]
+
+
+# np.where()
+# np.where(condition, x, y) returns elements from x where condition is True, otherwise from y. Very useful for conditional replacement.
+
+arr = np.array([1,2,3,4,5,6,7,8,9,10])
+print(np.where(arr % 2 == 0, "Even", "Odd")) # returns Even where condition is true otherwise Odd => ['Odd' 'Even' 'Odd' 'Even' 'Odd' 'Even' 'Odd' 'Even' 'Odd' 'Even']
+
+
+# covaraiance and corelation
+arr = np.array([1,2,3,4,5])
+arr2 = np.array([10,20,30,40,50])
+
+# covariance
+#  covarinace tells us the direction of the linear relationship between the two arrays.
+#  corelation tells us the strength of the linear relationship between the two arrays.
+
+# positive covariance tells us that the two arrays are positively correlated
+# negative covariance tells us that the two arrays are negatively correlated
+# zero covariance tells us that the two arrays are not correlated
+
+# positive corelation tells us that the two arrays are positively correlated
+# negative corelation tells us that the two arrays are negatively correlated
+# zero corelation tells us that the two arrays are not correlated
+
+print(np.cov(arr, arr2)) # [[2.5  25. ]
+                        #  [25.  250. ]]  -> it is covariance matrix
+
+# corelation
+print(np.corrcoef(arr, arr2)) # [[1.  1.]
+                            # [1.  1.]] -> it is corelation matrix
+
+# mean median mode
+arr = np.array([1,2,3,4,5, 5, 5])
+
+# mean => add all and divide by number of elements
+print(np.mean(arr)) # (1+2+3+4+5+5+5) / 7 = 25 / 7 = 3.5714285714285716
+
+# median => middle value when sorted
+print(np.median(arr)) # [1, 2, 3, 4, 5, 5, 5] -> middle value is 4
+
+# mode => most frequent values
+print(np.mode(arr)) # 5
 

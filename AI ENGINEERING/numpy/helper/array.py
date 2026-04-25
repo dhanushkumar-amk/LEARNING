@@ -1,4 +1,5 @@
 
+from ctypes.wintypes import PINT
 import numpy as np
 
 
@@ -58,3 +59,12 @@ print(np.sort(arr))
 # boolen array sort
 bol = np.array([True, False, True])
 print(np.sort(bol))
+
+
+# zeros
+print(np.zeros(4))
+print(np.zeros((2,3)))
+
+# ones
+print(np.ones((2,5)))
+

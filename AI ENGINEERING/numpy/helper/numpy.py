@@ -208,4 +208,7 @@ print(np.mode(arr)) # 5
 
 
 # Probabilty distribution
-#  Probabilty distribution means  distribution of random variables
+#  Probabilty distribution means showing the probability of each value in a dataset.
+
+# types of distribution
+

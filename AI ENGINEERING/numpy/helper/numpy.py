@@ -206,3 +206,6 @@ print(np.median(arr)) # [1, 2, 3, 4, 5, 5, 5] -> middle value is 4
 # mode => most frequent values
 print(np.mode(arr)) # 5
 
+
+# Probabilty distribution
+#  Probabilty distribution means  distribution of random variables

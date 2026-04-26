@@ -211,4 +211,12 @@ print(np.mode(arr)) # 5
 #  Probabilty distribution means showing the probability of each value in a dataset.
 
 # types of distribution
+# 1. normal distribution
+# 2. binominal distribution
+# 3. poisson distribution
+# 4. uniform distribution
+# 5. exponential distribution
+# 6. t distribution
+# 7. chi-square distribution
+# 8. f distribution
 

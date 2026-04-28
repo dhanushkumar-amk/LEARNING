@@ -204,22 +204,104 @@ print(np.mean(arr)) # (1+2+3+4+5+5+5) / 7 = 25 / 7 = 3.5714285714285716
 print(np.median(arr)) # [1, 2, 3, 4, 5, 5, 5] -> middle value is 4
 
 # mode => most frequent values
-print(np.mode(arr)) # 5
+# print(np.mode(arr)) # 5 # it is not available in numpy
+
+# # to get mode we can use scipy.stats.mode
+# print(stats.mode(arr)) # ModeResult(mode=array([5]), count=array([3]))
 
 
 # Probabilty distribution
 #  Probabilty distribution means showing the probability of each value in a dataset.
 
 # types of distribution
-# 1. normal distribution
-# 2. binominal distribution
-# 3. poisson distribution
-# 4. uniform distribution
-# 5. exponential distribution
-# 6. t distribution
-# 7. chi-square distribution
-# 8. f distribution
 
-# normal distribution
-# normal distribution is also called bell curve
+''' Probability Distributions — One Line Each
 
+Uniform
+Every option has equal chance.
+Example: Shuffling a deck of cards — every card equally likely to be picked.
+
+Normal
+Most values cluster in the middle, few at the extremes.
+Example: Most people are average height, very few are extremely tall or short.
+
+Bernoulli
+Only two outcomes — yes or no, 1 or 0.
+Example: Flipping a coin — either heads or tails, nothing else.
+
+Binomial
+Count how many successes you get in multiple yes/no tries.
+Example: Flipping a coin 10 times — how many heads did you get total?
+
+Poisson
+Count how many times something happens in a fixed time.
+Example: How many customers walk into a shop in one hour.
+
+Exponential
+How long until the next event happens.
+Example: You wait on average 10 minutes for a bus — how long will you wait today?
+
+Categorical
+Multiple options, each with its own probability.
+Example: Weather today — 50% sunny, 30% cloudy, 20% rainy — pick one.
+'''
+
+# ============================================
+# 1. UNIFORM — equal chance for everything
+# ============================================
+
+samples = np.random.uniform(low=0, high=10, size=5)
+print("Uniform:", samples)
+# [3.2, 7.8, 1.1, 9.4, 5.6] — any number between 0-10, equal chance
+
+# ============================================
+# 2. NORMAL — clustered around middle
+# ============================================
+
+samples = np.random.normal(loc=0, scale=1, size=5)
+print("Normal:", samples)
+# [-0.3, 1.2, 0.1, -0.8, 0.5] — mostly near 0, rarely far from it
+# loc = center (mean), scale = spread (std)
+
+# ============================================
+# 3. BERNOULLI — yes or no, 1 or 0
+# ============================================
+
+samples = np.random.binomial(n=1, p=0.7, size=5)
+print("Bernoulli:", samples)
+# [1, 1, 0, 1, 1] — 70% chance of getting 1
+
+# ============================================
+# 4. BINOMIAL — count successes in N tries
+# ============================================
+
+samples = np.random.binomial(n=10, p=0.7, size=5)
+print("Binomial:", samples)
+# [7, 8, 6, 9, 7] — out of 10 tries, how many succeeded
+
+# ============================================
+# 5. POISSON — count events in fixed time
+# ============================================
+
+samples = np.random.poisson(lam=5, size=5)
+print("Poisson:", samples)
+# [4, 6, 5, 3, 7] — on average 5 events, varies each time
+
+# ============================================
+# 6. EXPONENTIAL — time until next event
+# ============================================
+
+samples = np.random.exponential(scale=10, size=5)
+print("Exponential:", samples)
+# [7.2, 15.3, 3.8, 12.1, 9.4] — average wait is 10, varies each time
+
+# ============================================
+# 7. CATEGORICAL — pick one from many options
+# ============================================
+
+options = ["cat", "dog", "bird"]
+probs   = [0.5,   0.3,   0.2]      # must add up to 1.0
+
+samples = np.random.choice(options, p=probs, size=5)
+print("Categorical:", samples)
+# ['cat', 'dog', 'cat', 'cat', 'bird'] — cat most likely, bird least

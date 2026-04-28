@@ -1,6 +1,6 @@
 import numpy as np
 
-
+# One dimensional array
 OneDArray = np.array([1,2,3,4,5])
 print(OneDArray)
 
@@ -219,4 +219,7 @@ print(np.mode(arr)) # 5
 # 6. t distribution
 # 7. chi-square distribution
 # 8. f distribution
+
+# normal distribution
+# normal distribution is also called bell curve
 

@@ -1,0 +1,1682 @@
+[
+  {
+    "instruction": "What are the common symptoms of type 2 diabetes?",
+    "input": "",
+    "output": "Common symptoms of type 2 diabetes include increased thirst, frequent urination, unexplained weight loss, fatigue, blurred vision, slow-healing sores, and frequent infections. Consult a doctor for proper diagnosis and management."
+  },
+  {
+    "instruction": "List early warning signs of a heart attack.",
+    "input": "",
+    "output": "Early warning signs of a heart attack may include chest pain or discomfort, pain spreading to arms, neck, jaw or back, shortness of breath, nausea, lightheadedness, and cold sweats. Seek emergency medical help immediately if suspected."
+  },
+  {
+    "instruction": "What are the typical symptoms of asthma?",
+    "input": "",
+    "output": "Typical symptoms of asthma include wheezing, shortness of breath, chest tightness, and coughing, especially at night or during exercise. Triggers vary and should be managed under medical supervision."
+  },
+  {
+    "instruction": "Describe symptoms of hypertension.",
+    "input": "",
+    "output": "Hypertension is often called the silent killer as it may have no noticeable symptoms. When present, they can include headaches, shortness of breath, nosebleeds, or dizziness. Regular blood pressure checks are essential."
+  },
+  {
+    "instruction": "What symptoms indicate a possible stroke?",
+    "input": "",
+    "output": "Use FAST: Face drooping, Arm weakness, Speech difficulty, Time to call emergency services. Other symptoms include sudden numbness, confusion, vision problems, or severe headache."
+  },
+  {
+    "instruction": "What are common symptoms of migraine headaches?",
+    "input": "",
+    "output": "Migraine symptoms often include intense throbbing pain on one side of the head, nausea, vomiting, and sensitivity to light and sound. Some experience aura with visual disturbances."
+  },
+  {
+    "instruction": "List symptoms associated with hypothyroidism.",
+    "input": "",
+    "output": "Symptoms of hypothyroidism can include fatigue, weight gain, cold intolerance, dry skin, hair loss, constipation, depression, and slowed heart rate. Blood tests are needed for diagnosis."
+  },
+  {
+    "instruction": "What are the signs of pneumonia?",
+    "input": "",
+    "output": "Signs of pneumonia include cough with phlegm, fever, chills, shortness of breath, chest pain when breathing, fatigue, and confusion especially in older adults."
+  },
+  {
+    "instruction": "Describe symptoms of rheumatoid arthritis.",
+    "input": "",
+    "output": "Rheumatoid arthritis symptoms include joint pain, swelling, stiffness (worse in mornings), fatigue, fever, and loss of appetite. It is an autoimmune condition requiring medical management."
+  },
+  {
+    "instruction": "What symptoms suggest a urinary tract infection?",
+    "input": "",
+    "output": "UTI symptoms typically include a strong urge to urinate, burning sensation during urination, cloudy or strong-smelling urine, and pelvic pain. Antibiotics are usually required."
+  },
+  {
+    "instruction": "Name five common symptoms of the flu.",
+    "input": "",
+    "output": "Common flu symptoms are high fever, chills, muscle aches, cough, sore throat, runny nose, headache, and fatigue. Rest and hydration help recovery."
+  },
+  {
+    "instruction": "What are symptoms of gastroesophageal reflux disease (GERD)?",
+    "input": "",
+    "output": "GERD symptoms include heartburn, regurgitation of food or sour liquid, chest pain, difficulty swallowing, and chronic cough. Lifestyle changes and medications can help."
+  },
+  {
+    "instruction": "Describe signs of dehydration.",
+    "input": "",
+    "output": "Signs of dehydration include thirst, dry mouth, dark urine, infrequent urination, fatigue, dizziness, and confusion in severe cases. Replenish fluids promptly."
+  },
+  {
+    "instruction": "What symptoms are associated with anemia?",
+    "input": "",
+    "output": "Anemia symptoms may include fatigue, weakness, pale skin, shortness of breath, dizziness, cold hands and feet, and irregular heartbeat."
+  },
+  {
+    "instruction": "List early symptoms of Alzheimer's disease.",
+    "input": "",
+    "output": "Early symptoms include memory loss affecting daily life, difficulty planning or solving problems, confusion with time or place, and challenges with visual images or words."
+  },
+  {
+    "instruction": "What are the symptoms of tuberculosis?",
+    "input": "",
+    "output": "Tuberculosis symptoms include persistent cough (sometimes with blood), chest pain, weight loss, fever, night sweats, and fatigue. It requires prompt medical treatment."
+  },
+  {
+    "instruction": "Describe common symptoms of eczema.",
+    "input": "",
+    "output": "Eczema symptoms include itchy, red, inflamed skin, dry scaly patches, blisters, and skin thickening in chronic cases. Moisturizers and avoiding triggers help."
+  },
+  {
+    "instruction": "What symptoms indicate appendicitis?",
+    "input": "",
+    "output": "Appendicitis symptoms typically start with pain near the navel moving to lower right abdomen, nausea, vomiting, fever, and loss of appetite. Seek immediate care."
+  },
+  {
+    "instruction": "List symptoms of kidney stones.",
+    "input": "",
+    "output": "Kidney stone symptoms include severe pain in side and back, pain during urination, pink/red/brown urine, nausea, vomiting, and frequent urge to urinate."
+  },
+  {
+    "instruction": "What are signs of skin cancer?",
+    "input": "",
+    "output": "Use ABCDE rule for moles: Asymmetry, Border irregularity, Color variation, Diameter >6mm, Evolving. See a dermatologist for suspicious changes."
+  },
+  {
+    "instruction": "Describe symptoms of osteoarthritis.",
+    "input": "",
+    "output": "Osteoarthritis symptoms include joint pain, stiffness after inactivity, tenderness, loss of flexibility, grating sensation, and bone spurs."
+  },
+  {
+    "instruction": "What are common symptoms of celiac disease?",
+    "input": "",
+    "output": "Celiac disease symptoms include diarrhea, bloating, abdominal pain, fatigue, weight loss, and skin rash (dermatitis herpetiformis). A gluten-free diet is essential."
+  },
+  {
+    "instruction": "List symptoms of multiple sclerosis.",
+    "input": "",
+    "output": "Multiple sclerosis symptoms can include fatigue, numbness, vision problems, muscle weakness, balance issues, and cognitive changes. Varies widely between individuals."
+  },
+  {
+    "instruction": "What symptoms suggest food poisoning?",
+    "input": "",
+    "output": "Food poisoning symptoms include nausea, vomiting, diarrhea, abdominal cramps, fever, and headache. Hydration is key; severe cases need medical attention."
+  },
+  {
+    "instruction": "Describe symptoms of hyperthyroidism.",
+    "input": "",
+    "output": "Hyperthyroidism symptoms include weight loss, rapid heartbeat, anxiety, tremors, sweating, heat intolerance, and frequent bowel movements."
+  },
+  {
+    "instruction": "Name common allergy symptoms.",
+    "input": "",
+    "output": "Common allergy symptoms are sneezing, runny nose, itchy eyes, skin rashes, wheezing, and swelling. Antihistamines can provide relief."
+  },
+  {
+    "instruction": "What are symptoms of Parkinson's disease?",
+    "input": "",
+    "output": "Parkinson's symptoms include tremors, slowed movement, rigid muscles, impaired posture and balance, and changes in speech and writing."
+  },
+  {
+    "instruction": "List symptoms of bronchitis.",
+    "input": "",
+    "output": "Bronchitis symptoms include cough with mucus, fatigue, shortness of breath, chest discomfort, low fever, and chills."
+  },
+  {
+    "instruction": "What are the signs of breast cancer?",
+    "input": "",
+    "output": "Signs include lump in breast, changes in size/shape, skin dimpling, nipple discharge, or inverted nipple. Regular self-exams and mammograms are recommended."
+  },
+  {
+    "instruction": "Describe symptoms of irritable bowel syndrome (IBS).",
+    "input": "",
+    "output": "IBS symptoms include abdominal pain, bloating, gas, diarrhea, constipation, or alternating bowel habits. Diet and stress management help."
+  },
+  {
+    "instruction": "What symptoms indicate a possible concussion?",
+    "input": "",
+    "output": "Concussion symptoms include headache, dizziness, confusion, nausea, sensitivity to light/noise, memory problems, and fatigue. Rest and medical evaluation are important."
+  },
+  {
+    "instruction": "List common symptoms of COVID-19.",
+    "input": "",
+    "output": "Common COVID-19 symptoms include fever, cough, tiredness, loss of taste/smell, sore throat, headache, and shortness of breath. Testing and isolation advised."
+  },
+  {
+    "instruction": "What are symptoms of glaucoma?",
+    "input": "",
+    "output": "Glaucoma symptoms can include gradual loss of peripheral vision, blurred vision, halos around lights, eye pain, and headache. Regular eye exams are crucial."
+  },
+  {
+    "instruction": "Describe signs of liver disease.",
+    "input": "",
+    "output": "Signs of liver disease include jaundice (yellow skin/eyes), abdominal swelling, dark urine, pale stool, fatigue, nausea, and easy bruising."
+  },
+  {
+    "instruction": "What symptoms are typical of lupus?",
+    "input": "",
+    "output": "Lupus symptoms include fatigue, joint pain, skin rashes (butterfly rash), fever, sun sensitivity, and organ involvement. It is an autoimmune disease."
+  },
+  {
+    "instruction": "List symptoms of sinusitis.",
+    "input": "",
+    "output": "Sinusitis symptoms include facial pain/pressure, nasal congestion, thick nasal discharge, reduced sense of smell, cough, and fatigue."
+  },
+  {
+    "instruction": "What are symptoms of endometriosis?",
+    "input": "",
+    "output": "Endometriosis symptoms include pelvic pain, painful periods, pain during intercourse, heavy bleeding, infertility, and fatigue."
+  },
+  {
+    "instruction": "Describe common symptoms of fibromyalgia.",
+    "input": "",
+    "output": "Fibromyalgia symptoms include widespread musculoskeletal pain, fatigue, sleep disturbances, memory issues, and mood problems."
+  },
+  {
+    "instruction": "What symptoms suggest prostate problems?",
+    "input": "",
+    "output": "Symptoms of prostate issues include frequent urination, weak urine stream, difficulty starting/stopping, nocturia, and pelvic discomfort. See a urologist."
+  },
+  {
+    "instruction": "Name symptoms of vitamin D deficiency.",
+    "input": "",
+    "output": "Vitamin D deficiency symptoms include bone pain, muscle weakness, fatigue, frequent infections, depression, and impaired wound healing."
+  },
+  {
+    "instruction": "What are the symptoms of diverticulitis?",
+    "input": "",
+    "output": "Diverticulitis symptoms include severe abdominal pain (usually left lower side), fever, nausea, vomiting, and changes in bowel habits."
+  },
+  {
+    "instruction": "List symptoms of pancreatic cancer.",
+    "input": "",
+    "output": "Pancreatic cancer symptoms may include abdominal pain radiating to back, jaundice, weight loss, loss of appetite, and new-onset diabetes."
+  },
+  {
+    "instruction": "Describe symptoms of chronic obstructive pulmonary disease (COPD).",
+    "input": "",
+    "output": "COPD symptoms include shortness of breath, chronic cough with mucus, wheezing, chest tightness, and frequent respiratory infections."
+  },
+  {
+    "instruction": "What are signs of macular degeneration?",
+    "input": "",
+    "output": "Macular degeneration symptoms include blurred central vision, distorted straight lines, dark spots, and difficulty recognizing faces."
+  },
+  {
+    "instruction": "What symptoms indicate a possible ectopic pregnancy?",
+    "input": "",
+    "output": "Ectopic pregnancy symptoms include sharp abdominal pain, vaginal bleeding, shoulder pain, dizziness, and fainting. This is a medical emergency."
+  },
+  {
+    "instruction": "List common symptoms of menopause.",
+    "input": "",
+    "output": "Menopause symptoms include hot flashes, night sweats, mood changes, vaginal dryness, sleep problems, and weight gain."
+  },
+  {
+    "instruction": "What are symptoms of gout?",
+    "input": "",
+    "output": "Gout symptoms include sudden intense joint pain (often big toe), redness, swelling, and lingering discomfort. Diet and medications help manage."
+  },
+  {
+    "instruction": "Describe symptoms of schizophrenia.",
+    "input": "",
+    "output": "Schizophrenia symptoms include hallucinations, delusions, disorganized thinking, negative symptoms like reduced emotion, and cognitive difficulties."
+  },
+  {
+    "instruction": "What are early symptoms of HIV/AIDS?",
+    "input": "",
+    "output": "Early HIV symptoms may include flu-like illness, fever, rash, swollen lymph nodes, and fatigue. Testing is important for diagnosis."
+  },
+  {
+    "instruction": "List symptoms of osteoporosis.",
+    "input": "",
+    "output": "Osteoporosis often has no symptoms until a fracture occurs. Back pain, loss of height, stooped posture, and easy fractures are signs."
+  },
+  {
+    "instruction": "What symptoms suggest bacterial meningitis?",
+    "input": "",
+    "output": "Bacterial meningitis symptoms include high fever, severe headache, stiff neck, confusion, seizures, and sensitivity to light. Immediate treatment is critical."
+  },
+  {
+    "instruction": "Describe symptoms of Lyme disease.",
+    "input": "",
+    "output": "Lyme disease symptoms include bull's-eye rash, fatigue, fever, headache, muscle/joint aches, and swollen lymph nodes if untreated."
+  },
+  {
+    "instruction": "What are symptoms of restless legs syndrome?",
+    "input": "",
+    "output": "Restless legs syndrome involves uncomfortable sensations in legs with urge to move, worse at rest or night, relieved by movement."
+  },
+  {
+    "instruction": "Name five common symptoms of common cold.",
+    "input": "",
+    "output": "Common cold symptoms include runny nose, sore throat, cough, sneezing, mild headache, and low-grade fever."
+  },
+  {
+    "instruction": "What symptoms are associated with polycystic ovary syndrome (PCOS)?",
+    "input": "",
+    "output": "PCOS symptoms include irregular periods, excess androgen (hair growth, acne), polycystic ovaries, weight gain, and infertility."
+  },
+  {
+    "instruction": "List symptoms of colon cancer.",
+    "input": "",
+    "output": "Colon cancer symptoms may include changes in bowel habits, rectal bleeding, persistent abdominal discomfort, fatigue, and unexplained weight loss."
+  },
+  {
+    "instruction": "What are symptoms of carpal tunnel syndrome?",
+    "input": "",
+    "output": "Carpal tunnel symptoms include numbness, tingling, or pain in thumb, index, middle, and ring fingers, and weakness in hand."
+  },
+  {
+    "instruction": "Describe symptoms of chronic kidney disease.",
+    "input": "",
+    "output": "Chronic kidney disease symptoms include fatigue, swelling in legs, changes in urination, nausea, and high blood pressure."
+  },
+  {
+    "instruction": "What symptoms indicate measles?",
+    "input": "",
+    "output": "Measles symptoms include high fever, cough, runny nose, red eyes, Koplik spots, and a widespread rash."
+  },
+  {
+    "instruction": "List symptoms of varicose veins.",
+    "input": "",
+    "output": "Varicose veins symptoms include aching legs, swelling, heaviness, itching, and visible twisted veins."
+  },
+  {
+    "instruction": "What are the symptoms of Guillain-Barre syndrome?",
+    "input": "",
+    "output": "Guillain-Barre syndrome symptoms include tingling, weakness starting in legs, difficulty walking, and potential paralysis. It requires urgent care."
+  },
+  {
+    "instruction": "Describe symptoms of seasonal affective disorder.",
+    "input": "",
+    "output": "Seasonal affective disorder symptoms include depression in winter months, oversleeping, weight gain, fatigue, and social withdrawal."
+  },
+  {
+    "instruction": "What symptoms suggest a herniated disc?",
+    "input": "",
+    "output": "Herniated disc symptoms include back or neck pain, numbness, tingling, or weakness in arms or legs depending on location."
+  },
+  {
+    "instruction": "Name symptoms of scarlet fever.",
+    "input": "",
+    "output": "Scarlet fever symptoms include sore throat, fever, red rash like sandpaper, strawberry tongue, and flushed face."
+  },
+  {
+    "instruction": "What are symptoms of Sjogren's syndrome?",
+    "input": "",
+    "output": "Sjogren's syndrome symptoms include dry eyes, dry mouth, joint pain, fatigue, and swollen salivary glands."
+  },
+  {
+    "instruction": "List symptoms of temporal arteritis.",
+    "input": "",
+    "output": "Temporal arteritis symptoms include headache, scalp tenderness, jaw pain, vision problems, and fever. Prompt treatment prevents vision loss."
+  },
+  {
+    "instruction": "Describe symptoms of amyotrophic lateral sclerosis (ALS).",
+    "input": "",
+    "output": "ALS symptoms include muscle weakness, twitching, cramps, difficulty speaking/swallowing, and eventual paralysis while mind remains clear."
+  },
+  {
+    "instruction": "What symptoms indicate whooping cough?",
+    "input": "",
+    "output": "Whooping cough symptoms start with cold-like signs then progress to severe coughing fits with whoop sound, vomiting, and exhaustion."
+  },
+  {
+    "instruction": "What are common side effects of antibiotics?",
+    "input": "",
+    "output": "Common side effects of antibiotics include diarrhea, nausea, vomiting, rash, yeast infections, and allergic reactions. Complete the full course as prescribed."
+  },
+  {
+    "instruction": "List potential side effects of statins.",
+    "input": "",
+    "output": "Statins may cause muscle pain, liver enzyme elevation, digestive problems, memory issues, and increased blood sugar levels. Regular monitoring is advised."
+  },
+  {
+    "instruction": "What are side effects of antidepressants like SSRIs?",
+    "input": "",
+    "output": "SSRI side effects can include nausea, sexual dysfunction, weight changes, insomnia, drowsiness, and dry mouth. They usually improve over time."
+  },
+  {
+    "instruction": "Describe common side effects of chemotherapy.",
+    "input": "",
+    "output": "Chemotherapy side effects include hair loss, nausea, vomiting, fatigue, increased infection risk, anemia, and mouth sores."
+  },
+  {
+    "instruction": "What side effects can blood pressure medications cause?",
+    "input": "",
+    "output": "Blood pressure medications may cause dizziness, fatigue, cough (ACE inhibitors), swelling in ankles, and electrolyte imbalances."
+  },
+  {
+    "instruction": "List side effects of oral contraceptives.",
+    "input": "",
+    "output": "Oral contraceptives can cause nausea, breast tenderness, mood changes, spotting, headaches, and slight increased risk of blood clots."
+  },
+  {
+    "instruction": "What are side effects of corticosteroids?",
+    "input": "",
+    "output": "Corticosteroid side effects include weight gain, mood swings, high blood pressure, osteoporosis, increased infection risk, and high blood sugar."
+  },
+  {
+    "instruction": "Describe side effects of metformin.",
+    "input": "",
+    "output": "Metformin side effects commonly include gastrointestinal upset like diarrhea, nausea, and metallic taste. Vitamin B12 deficiency can occur with long-term use."
+  },
+  {
+    "instruction": "What are potential side effects of NSAIDs?",
+    "input": "",
+    "output": "NSAIDs can cause stomach ulcers, bleeding, kidney problems, high blood pressure, and increased heart attack risk with long-term use."
+  },
+  {
+    "instruction": "List side effects of insulin therapy.",
+    "input": "",
+    "output": "Insulin side effects primarily include hypoglycemia (low blood sugar), weight gain, and injection site reactions."
+  },
+  {
+    "instruction": "What side effects are associated with benzodiazepines?",
+    "input": "",
+    "output": "Benzodiazepines can cause drowsiness, dizziness, confusion, dependence, memory problems, and respiratory depression in high doses."
+  },
+  {
+    "instruction": "Describe common side effects of antihistamines.",
+    "input": "",
+    "output": "Antihistamines may cause drowsiness (first-generation), dry mouth, blurred vision, constipation, and urinary retention."
+  },
+  {
+    "instruction": "What are side effects of proton pump inhibitors?",
+    "input": "",
+    "output": "Long-term PPI use may lead to nutrient deficiencies, increased infection risk (C. diff), bone fractures, and kidney issues."
+  },
+  {
+    "instruction": "List side effects of beta blockers.",
+    "input": "",
+    "output": "Beta blockers can cause fatigue, cold hands/feet, slow heartbeat, weight gain, and sexual dysfunction."
+  },
+  {
+    "instruction": "What side effects can opioids cause?",
+    "input": "",
+    "output": "Opioids commonly cause constipation, drowsiness, nausea, respiratory depression, tolerance, and risk of addiction."
+  },
+  {
+    "instruction": "Describe side effects of levothyroxine.",
+    "input": "",
+    "output": "Levothyroxine side effects if overdosed include heart palpitations, anxiety, weight loss, tremors, and heat intolerance."
+  },
+  {
+    "instruction": "What are common side effects of vaccines?",
+    "input": "",
+    "output": "Vaccine side effects are usually mild: soreness at injection site, low-grade fever, fatigue, and headache. Serious reactions are rare."
+  },
+  {
+    "instruction": "List side effects of diuretics.",
+    "input": "",
+    "output": "Diuretics may cause dehydration, electrolyte imbalance, frequent urination, dizziness, and muscle cramps."
+  },
+  {
+    "instruction": "What side effects are linked to aromatase inhibitors?",
+    "input": "",
+    "output": "Aromatase inhibitors can cause hot flashes, joint pain, bone loss, and increased cholesterol levels."
+  },
+  {
+    "instruction": "Describe side effects of warfarin.",
+    "input": "",
+    "output": "Warfarin side effects include bleeding risks, bruising, hair loss, and interactions with diet and other medications. INR monitoring is essential."
+  },
+  {
+    "instruction": "What are side effects of gabapentin?",
+    "input": "",
+    "output": "Gabapentin may cause dizziness, drowsiness, peripheral edema, and weight gain."
+  },
+  {
+    "instruction": "List potential side effects of tamoxifen.",
+    "input": "",
+    "output": "Tamoxifen side effects include hot flashes, vaginal discharge, irregular periods, increased risk of blood clots, and endometrial changes."
+  },
+  {
+    "instruction": "What side effects can ACE inhibitors cause?",
+    "input": "",
+    "output": "ACE inhibitors may cause dry cough, elevated potassium, dizziness, and angioedema (rare but serious)."
+  },
+  {
+    "instruction": "Describe side effects of lithium.",
+    "input": "",
+    "output": "Lithium side effects include thirst, frequent urination, tremor, weight gain, and potential thyroid/kidney effects with long-term use."
+  },
+  {
+    "instruction": "What are side effects of chemotherapy-induced nausea drugs?",
+    "input": "",
+    "output": "Anti-nausea drugs may cause constipation, headache, fatigue, or extrapyramidal symptoms depending on the type."
+  },
+  {
+    "instruction": "List side effects of birth control patches.",
+    "input": "",
+    "output": "Birth control patches can cause skin irritation at site, breast tenderness, headaches, and mood changes."
+  },
+  {
+    "instruction": "What side effects are associated with immunotherapy?",
+    "input": "",
+    "output": "Immunotherapy side effects include fatigue, skin reactions, flu-like symptoms, and autoimmune-like reactions affecting organs."
+  },
+  {
+    "instruction": "Describe common side effects of muscle relaxants.",
+    "input": "",
+    "output": "Muscle relaxants can cause drowsiness, dizziness, dry mouth, and dependency with prolonged use."
+  },
+  {
+    "instruction": "What are nutritional benefits of eating leafy greens?",
+    "input": "",
+    "output": "Leafy greens are rich in vitamins A, C, K, folate, fiber, and antioxidants. They support eye health, bone strength, and reduce inflammation."
+  },
+  {
+    "instruction": "How does a balanced diet help prevent chronic diseases?",
+    "input": "",
+    "output": "A balanced diet rich in fruits, vegetables, whole grains, lean proteins helps maintain healthy weight, control blood sugar, cholesterol, and blood pressure, reducing risks of diabetes, heart disease, and cancer."
+  },
+  {
+    "instruction": "What are the benefits of omega-3 fatty acids?",
+    "input": "",
+    "output": "Omega-3 fatty acids support heart health, reduce inflammation, improve brain function, and may help with depression and arthritis."
+  },
+  {
+    "instruction": "Recommend daily water intake for adults.",
+    "input": "",
+    "output": "Adults should aim for about 2-3 liters (8-12 cups) of water daily, adjusting for activity, climate, and health status. Proper hydration supports all body functions."
+  },
+  {
+    "instruction": "What is the importance of fiber in the diet?",
+    "input": "",
+    "output": "Dietary fiber aids digestion, prevents constipation, helps control blood sugar and cholesterol, and promotes satiety for weight management."
+  },
+  {
+    "instruction": "How can one maintain a healthy lifestyle?",
+    "input": "",
+    "output": "Maintain healthy lifestyle through balanced nutrition, regular physical activity (150 min/week), adequate sleep (7-9 hours), stress management, and avoiding tobacco and excessive alcohol."
+  },
+  {
+    "instruction": "What are benefits of regular exercise?",
+    "input": "",
+    "output": "Regular exercise improves cardiovascular health, strengthens muscles and bones, boosts mood, aids weight control, and reduces chronic disease risk."
+  },
+  {
+    "instruction": "Explain the Mediterranean diet.",
+    "input": "",
+    "output": "The Mediterranean diet emphasizes fruits, vegetables, whole grains, olive oil, fish, nuts, and moderate dairy/wine. It is linked to longevity and heart health."
+  },
+  {
+    "instruction": "How much protein does an average adult need?",
+    "input": "",
+    "output": "Average adults need about 0.8 grams of protein per kg of body weight daily. Athletes or those building muscle may require more."
+  },
+  {
+    "instruction": "What foods are good for heart health?",
+    "input": "",
+    "output": "Foods good for heart health include fatty fish, nuts, berries, leafy greens, oats, avocados, and olive oil due to their nutrient profiles."
+  },
+  {
+    "instruction": "Describe the role of antioxidants in nutrition.",
+    "input": "",
+    "output": "Antioxidants combat free radicals, reduce oxidative stress, and may lower risk of chronic diseases like cancer and heart disease."
+  },
+  {
+    "instruction": "How does sleep affect overall health?",
+    "input": "",
+    "output": "Adequate sleep supports immune function, memory, mood regulation, hormone balance, and reduces risk of obesity and diabetes."
+  },
+  {
+    "instruction": "What are benefits of probiotics?",
+    "input": "",
+    "output": "Probiotics support gut health, improve digestion, boost immunity, and may help with certain allergies and mental health."
+  },
+  {
+    "instruction": "Recommend ways to reduce sugar intake.",
+    "input": "",
+    "output": "Reduce sugar by choosing whole foods, reading labels, using natural sweeteners sparingly, and opting for fruit instead of sugary snacks/drinks."
+  },
+  {
+    "instruction": "What is the DASH diet?",
+    "input": "",
+    "output": "DASH diet (Dietary Approaches to Stop Hypertension) focuses on fruits, vegetables, low-fat dairy, whole grains, lean proteins to lower blood pressure."
+  },
+  {
+    "instruction": "How important is calcium for bones?",
+    "input": "",
+    "output": "Calcium is essential for building and maintaining strong bones and teeth, muscle function, and nerve signaling. Vitamin D aids absorption."
+  },
+  {
+    "instruction": "What are healthy snacks options?",
+    "input": "",
+    "output": "Healthy snacks include Greek yogurt with berries, apple with almond butter, carrot sticks with hummus, nuts, or veggie smoothies."
+  },
+  {
+    "instruction": "Explain intermittent fasting.",
+    "input": "",
+    "output": "Intermittent fasting involves cycling between eating and fasting periods. It may aid weight loss and metabolic health but consult a doctor before starting."
+  },
+  {
+    "instruction": "Benefits of whole grains over refined grains.",
+    "input": "",
+    "output": "Whole grains provide more fiber, vitamins, minerals, and help stabilize blood sugar compared to refined grains."
+  },
+  {
+    "instruction": "How does stress affect nutrition?",
+    "input": "",
+    "output": "Stress can lead to emotional eating, poor food choices, and digestive issues. Mindful eating and stress reduction techniques help."
+  },
+  {
+    "instruction": "What is mindful eating?",
+    "input": "",
+    "output": "Mindful eating involves paying full attention to the eating experience, savoring flavors, and recognizing hunger/fullness cues to improve relationship with food."
+  },
+  {
+    "instruction": "Recommend exercise for beginners.",
+    "input": "",
+    "output": "Beginners should start with walking, swimming, or yoga for 20-30 minutes most days, gradually increasing intensity and incorporating strength training."
+  },
+  {
+    "instruction": "What foods help boost immunity?",
+    "input": "",
+    "output": "Foods like citrus fruits, bell peppers, garlic, ginger, spinach, yogurt, almonds, and turmeric support immune function through vitamins and antioxidants."
+  },
+  {
+    "instruction": "How to manage weight healthily?",
+    "input": "",
+    "output": "Healthy weight management involves calorie balance, portion control, nutrient-dense foods, regular activity, and sustainable habits rather than fad diets."
+  },
+  {
+    "instruction": "Importance of hydration for athletes.",
+    "input": "",
+    "output": "Hydration maintains performance, regulates body temperature, prevents cramps and fatigue. Drink before, during, and after exercise."
+  },
+  {
+    "instruction": "What is a plant-based diet?",
+    "input": "",
+    "output": "A plant-based diet focuses on plants like vegetables, fruits, grains, legumes, nuts, minimizing animal products for health and environmental benefits."
+  },
+  {
+    "instruction": "Benefits of strength training.",
+    "input": "",
+    "output": "Strength training builds muscle mass, boosts metabolism, improves bone density, enhances posture, and supports functional daily activities."
+  },
+  {
+    "instruction": "How to read nutrition labels?",
+    "input": "",
+    "output": "Check serving size, calories, total fat, saturated fat, sodium, added sugars, fiber, and % daily value. Prioritize lower added sugars and sodium."
+  },
+  {
+    "instruction": "What are signs of good mental health?",
+    "input": "",
+    "output": "Signs of good mental health include emotional stability, resilience to stress, positive self-image, healthy relationships, and ability to enjoy life."
+  },
+  {
+    "instruction": "How to manage anxiety naturally?",
+    "input": "",
+    "output": "Natural anxiety management includes deep breathing, regular exercise, mindfulness meditation, adequate sleep, limiting caffeine, and social support."
+  },
+  {
+    "instruction": "What is cognitive behavioral therapy (CBT)?",
+    "input": "",
+    "output": "CBT is a type of psychotherapy that helps identify and change negative thought patterns and behaviors to improve emotional regulation."
+  },
+  {
+    "instruction": "Describe symptoms of depression.",
+    "input": "",
+    "output": "Depression symptoms include persistent sadness, loss of interest in activities, changes in appetite/sleep, fatigue, feelings of worthlessness, and thoughts of death."
+  },
+  {
+    "instruction": "How does meditation benefit mental health?",
+    "input": "",
+    "output": "Meditation reduces stress, improves focus, enhances emotional health, promotes better sleep, and can decrease symptoms of anxiety and depression."
+  },
+  {
+    "instruction": "Tips for better sleep hygiene.",
+    "input": "",
+    "output": "Sleep hygiene tips: consistent schedule, dark cool bedroom, limit screens before bed, avoid caffeine late, and relaxation routines."
+  },
+  {
+    "instruction": "What is burnout and how to prevent it?",
+    "input": "",
+    "output": "Burnout is exhaustion from chronic stress. Prevent by setting boundaries, taking breaks, prioritizing self-care, and seeking support."
+  },
+  {
+    "instruction": "How to build resilience?",
+    "input": "",
+    "output": "Build resilience through positive relationships, realistic goal-setting, problem-solving skills, self-care, and maintaining perspective during challenges."
+  },
+  {
+    "instruction": "Explain the importance of social connections.",
+    "input": "",
+    "output": "Social connections reduce loneliness, provide support, boost happiness, and are linked to better physical and mental health outcomes."
+  },
+  {
+    "instruction": "What are signs of bipolar disorder?",
+    "input": "",
+    "output": "Bipolar disorder involves manic episodes (high energy, reduced sleep need) and depressive episodes. Professional diagnosis and treatment are essential."
+  },
+  {
+    "instruction": "How to practice gratitude daily?",
+    "input": "",
+    "output": "Practice gratitude by journaling three things you're thankful for each day, expressing appreciation to others, or reflecting on positive experiences."
+  },
+  {
+    "instruction": "Benefits of therapy for mental wellness.",
+    "input": "",
+    "output": "Therapy provides tools to manage emotions, improve relationships, develop coping strategies, and address underlying issues for better well-being."
+  },
+  {
+    "instruction": "How does physical activity help mental health?",
+    "input": "",
+    "output": "Physical activity releases endorphins, reduces anxiety/depression symptoms, improves self-esteem, and enhances cognitive function."
+  },
+  {
+    "instruction": "What is mindfulness?",
+    "input": "",
+    "output": "Mindfulness is paying attention to the present moment without judgment. It helps reduce stress and improve emotional awareness."
+  },
+  {
+    "instruction": "Tips for managing stress at work.",
+    "input": "",
+    "output": "Manage work stress with time management, breaks, clear boundaries, delegation, exercise, and open communication with supervisors."
+  },
+  {
+    "instruction": "Describe post-traumatic stress disorder (PTSD).",
+    "input": "",
+    "output": "PTSD involves flashbacks, nightmares, severe anxiety, and uncontrollable thoughts after a traumatic event. Treatment includes therapy and medication."
+  },
+  {
+    "instruction": "How to support someone with mental illness?",
+    "input": "",
+    "output": "Support by listening without judgment, encouraging professional help, being patient, and educating yourself about their condition."
+  },
+  {
+    "instruction": "What are breathing exercises for calm?",
+    "input": "",
+    "output": "Try 4-7-8 breathing: inhale for 4 seconds, hold for 7, exhale for 8. Repeat to activate relaxation response."
+  },
+  {
+    "instruction": "Importance of self-care routines.",
+    "input": "",
+    "output": "Self-care routines recharge energy, reduce burnout, improve mood, and enhance overall quality of life."
+  },
+  {
+    "instruction": "Signs of eating disorders.",
+    "input": "",
+    "output": "Eating disorders may involve extreme food restriction, binge eating, purging, distorted body image, and preoccupation with weight."
+  },
+  {
+    "instruction": "How does nature affect mental health?",
+    "input": "",
+    "output": "Time in nature reduces stress hormones, improves mood, boosts creativity, and enhances attention and well-being."
+  },
+  {
+    "instruction": "What is seasonal affective disorder (SAD)?",
+    "input": "",
+    "output": "SAD is depression related to shorter daylight in winter. Light therapy, exercise, and outdoor time can help."
+  },
+  {
+    "instruction": "Tips for positive self-talk.",
+    "input": "",
+    "output": "Replace negative thoughts with compassionate, realistic affirmations. Practice daily to build self-esteem."
+  },
+  {
+    "instruction": "How to cope with grief.",
+    "input": "",
+    "output": "Coping with grief involves allowing emotions, seeking support, maintaining routines, and honoring the loss in personal ways. Time heals gradually."
+  },
+  {
+    "instruction": "What is obsessive-compulsive disorder (OCD)?",
+    "input": "",
+    "output": "OCD features obsessions (intrusive thoughts) and compulsions (repetitive behaviors) that interfere with daily life. Therapy and medication help."
+  },
+  {
+    "instruction": "Benefits of journaling for mental health.",
+    "input": "",
+    "output": "Journaling helps process emotions, gain clarity, track patterns, and reduce anxiety through expressive writing."
+  },
+  {
+    "instruction": "How to set healthy boundaries.",
+    "input": "",
+    "output": "Healthy boundaries involve clear communication of needs, saying no when necessary, and protecting personal time and energy."
+  },
+  {
+    "instruction": "What first aid steps for a cut?",
+    "input": "",
+    "output": "For a cut: wash hands, apply pressure to stop bleeding, clean with water, apply antibiotic ointment, bandage, and seek medical help if deep or won't stop bleeding."
+  },
+  {
+    "instruction": "How to perform CPR?",
+    "input": "",
+    "output": "CPR: Check responsiveness, call emergency services, 30 chest compressions (2 inches deep) followed by 2 rescue breaths. Continue until help arrives or AED used."
+  },
+  {
+    "instruction": "What to do in case of choking?",
+    "input": "",
+    "output": "For choking: encourage coughing if mild. For severe, perform abdominal thrusts (Heimlich maneuver) until object is dislodged or person loses consciousness."
+  },
+  {
+    "instruction": "First aid for burns.",
+    "input": "",
+    "output": "For minor burns: cool under running water 10-20 minutes, cover loosely with sterile dressing. Do not use ice or butter. Seek care for severe burns."
+  },
+  {
+    "instruction": "How to treat a sprained ankle?",
+    "input": "",
+    "output": "RICE method: Rest, Ice (20 min), Compression bandage, Elevation. Pain relievers if needed. See doctor if severe."
+  },
+  {
+    "instruction": "What to do for nosebleed?",
+    "input": "",
+    "output": "For nosebleed: sit upright, lean slightly forward, pinch nostrils for 10 minutes. Avoid blowing nose immediately after."
+  },
+  {
+    "instruction": "Emergency response to heart attack.",
+    "input": "",
+    "output": "Call emergency services immediately. If prescribed, give aspirin. Perform CPR if person becomes unresponsive."
+  },
+  {
+    "instruction": "First aid for poisoning.",
+    "input": "",
+    "output": "For suspected poisoning: call poison control or emergency services. Do not induce vomiting unless instructed. Provide details of substance."
+  },
+  {
+    "instruction": "How to stop severe bleeding?",
+    "input": "",
+    "output": "Apply direct pressure with clean cloth. Elevate if possible. Use tourniquet only if trained and life-threatening. Get professional help."
+  },
+  {
+    "instruction": "What to do for heatstroke?",
+    "input": "",
+    "output": "Move to cool place, remove excess clothing, cool with wet cloths or fan, give fluids if conscious. Call emergency services immediately."
+  },
+  {
+    "instruction": "First aid for seizure.",
+    "input": "",
+    "output": "Protect from injury, do not restrain or put anything in mouth. Time the seizure. Call emergency if lasts >5 min or multiple."
+  },
+  {
+    "instruction": "How to help someone who fainted?",
+    "input": "",
+    "output": "Lay person flat, elevate legs, loosen tight clothing, ensure airway open. Monitor breathing and call help if not recovering quickly."
+  },
+  {
+    "instruction": "Emergency care for broken bone.",
+    "input": "",
+    "output": "Immobilize the area, apply ice, elevate, control bleeding if open fracture. Do not move unless necessary and seek immediate medical care."
+  },
+  {
+    "instruction": "What to do in case of drowning?",
+    "input": "",
+    "output": "Remove from water safely, check breathing, start CPR if not breathing. Call emergency services. Keep warm."
+  },
+  {
+    "instruction": "First aid for bee sting.",
+    "input": "",
+    "output": "Remove stinger by scraping, wash area, apply ice, use antihistamine or cream for swelling. Watch for allergic reaction."
+  },
+  {
+    "instruction": "How to treat frostbite?",
+    "input": "",
+    "output": "Move to warmth, immerse in warm (not hot) water, avoid rubbing. Seek medical help. Do not thaw if refreezing possible."
+  },
+  {
+    "instruction": "Emergency steps for stroke.",
+    "input": "",
+    "output": "Remember FAST: Face, Arms, Speech, Time. Call emergency services immediately. Note time of onset."
+  },
+  {
+    "instruction": "First aid for allergic reaction.",
+    "input": "",
+    "output": "For mild: antihistamine. For severe anaphylaxis: use epinephrine auto-injector if available, call emergency services, keep person lying down."
+  },
+  {
+    "instruction": "What to do for food poisoning at home?",
+    "input": "",
+    "output": "Rest, stay hydrated with oral rehydration solutions, avoid solid foods initially. Seek medical care if severe dehydration or bloody diarrhea."
+  },
+  {
+    "instruction": "How to splint a fracture?",
+    "input": "",
+    "output": "Use rigid material to immobilize joint above and below injury. Pad for comfort. Do not attempt if untrained for complex cases."
+  },
+  {
+    "instruction": "First aid for eye injury.",
+    "input": "",
+    "output": "For foreign object: rinse with saline or water. Do not rub. Cover both eyes if penetrating injury. Seek urgent care."
+  },
+  {
+    "instruction": "Emergency response to hypothermia.",
+    "input": "",
+    "output": "Move to warm area, remove wet clothes, warm gradually with blankets, warm fluids if conscious. Call for help."
+  },
+  {
+    "instruction": "What to do for electrical shock?",
+    "input": "",
+    "output": "Turn off power source safely. Check breathing and pulse, start CPR if needed. Call emergency services."
+  },
+  {
+    "instruction": "First aid for snake bite.",
+    "input": "",
+    "output": "Keep calm, immobilize limb, remove jewelry, seek immediate medical help. Do not cut or suck venom."
+  },
+  {
+    "instruction": "How to perform abdominal thrusts?",
+    "input": "",
+    "output": "Stand behind person, place fist above navel, grasp with other hand, thrust inward and upward. Repeat until effective."
+  },
+  {
+    "instruction": "First aid for sunburn.",
+    "input": "",
+    "output": "Cool skin with water, moisturize, take pain reliever, stay hydrated, avoid further sun. Severe cases need medical attention."
+  },
+  {
+    "instruction": "What to do during an asthma attack?",
+    "input": "",
+    "output": "Sit upright, use rescue inhaler, loosen clothing, stay calm. Call emergency if no improvement after inhaler."
+  },
+  {
+    "instruction": "Emergency care for diabetic emergency.",
+    "input": "",
+    "output": "For low blood sugar: give fast-acting sugar if conscious. For high: seek medical help. Know signs and have glucagon if trained."
+  },
+  {
+    "instruction": "What are symptoms of chickenpox?",
+    "input": "",
+    "output": "Chickenpox symptoms include itchy blister-like rash, fever, fatigue, loss of appetite, and headache. Vaccination prevents it."
+  },
+  {
+    "instruction": "List symptoms of mononucleosis.",
+    "input": "",
+    "output": "Mononucleosis (mono) symptoms include extreme fatigue, sore throat, fever, swollen lymph nodes, and headache."
+  },
+  {
+    "instruction": "What are side effects of chemotherapy drugs?",
+    "input": "",
+    "output": "Chemotherapy can cause hair loss, mouth sores, increased bruising, neuropathy, and fertility issues. Supportive care is available."
+  },
+  {
+    "instruction": "Benefits of regular physical activity for seniors.",
+    "input": "",
+    "output": "Regular activity for seniors improves balance, maintains independence, reduces fall risk, boosts mood, and supports heart and bone health."
+  },
+  {
+    "instruction": "How to recognize signs of dehydration in children?",
+    "input": "",
+    "output": "Signs of dehydration in children include dry mouth, no tears when crying, sunken eyes, decreased urine output, and irritability."
+  },
+  {
+    "instruction": "What first aid for a nosebleed in children?",
+    "input": "",
+    "output": "Have the child sit upright leaning forward, pinch soft part of nose for 10 minutes continuously. Seek help if bleeding persists."
+  },
+  {
+    "instruction": "Describe healthy plate method for meals.",
+    "input": "",
+    "output": "Fill half plate with vegetables/fruits, quarter with lean protein, quarter with whole grains. Add healthy fats and dairy as needed."
+  },
+  {
+    "instruction": "What are symptoms of postpartum depression?",
+    "input": "",
+    "output": "Postpartum depression includes severe mood swings, exhaustion, feelings of hopelessness, withdrawal, and difficulty bonding with baby. Seek help promptly."
+  },
+  {
+    "instruction": "How does smoking affect health?",
+    "input": "",
+    "output": "Smoking damages lungs, heart, and blood vessels, increases cancer risk, accelerates aging, and reduces life expectancy significantly."
+  },
+  {
+    "instruction": "Tips for quitting smoking.",
+    "input": "",
+    "output": "Set a quit date, use nicotine replacement, seek counseling or support groups, avoid triggers, and celebrate milestones."
+  },
+  {
+    "instruction": "What are signs of alcohol poisoning?",
+    "input": "",
+    "output": "Signs include confusion, vomiting, seizures, slow breathing, blue-tinged skin, and unconsciousness. Call emergency services immediately."
+  },
+  {
+    "instruction": "Benefits of yoga for mental and physical health.",
+    "input": "",
+    "output": "Yoga improves flexibility, strength, balance, reduces stress, anxiety, and promotes mindfulness."
+  },
+  {
+    "instruction": "What first aid for insect bite allergic reaction?",
+    "input": "",
+    "output": "Remove stinger if present, apply cold compress, give antihistamine, monitor for swelling of face/throat or breathing difficulty."
+  },
+  {
+    "instruction": "How much exercise per week is recommended?",
+    "input": "",
+    "output": "Adults should aim for at least 150 minutes moderate or 75 minutes vigorous aerobic activity per week plus strength training twice weekly."
+  },
+  {
+    "instruction": "What are symptoms of celiac disease in adults?",
+    "input": "",
+    "output": "Adult celiac symptoms include digestive issues, fatigue, bone/joint pain, skin rashes, depression, and anemia."
+  },
+  {
+    "instruction": "List side effects of aspirin.",
+    "input": "",
+    "output": "Aspirin can cause stomach irritation, bleeding risk, allergic reactions, and Reye's syndrome in children."
+  },
+  {
+    "instruction": "Describe signs of lung cancer.",
+    "input": "",
+    "output": "Lung cancer signs include persistent cough, coughing up blood, chest pain, hoarseness, weight loss, and shortness of breath."
+  },
+  {
+    "instruction": "How to manage high cholesterol through diet?",
+    "input": "",
+    "output": "Eat more soluble fiber, omega-3s, nuts, and plant sterols while reducing saturated fats, trans fats, and processed foods."
+  },
+  {
+    "instruction": "What is the Heimlich maneuver for infants?",
+    "input": "",
+    "output": "For choking infants: support on forearm, give 5 back blows then 5 chest thrusts. Repeat until object is out or infant is unconscious."
+  },
+  {
+    "instruction": "Benefits of green tea for health.",
+    "input": "",
+    "output": "Green tea is rich in antioxidants, may improve brain function, aid fat loss, lower cancer risk, and support heart health."
+  },
+  {
+    "instruction": "What are symptoms of rotator cuff injury?",
+    "input": "",
+    "output": "Rotator cuff injury symptoms include shoulder pain, weakness, limited range of motion, and pain when lifting arm."
+  },
+  {
+    "instruction": "How to perform recovery position?",
+    "input": "",
+    "output": "For unresponsive breathing person: roll onto side, tilt head back to keep airway open, bend top leg for stability."
+  },
+  {
+    "instruction": "What foods are good sources of iron?",
+    "input": "",
+    "output": "Iron-rich foods include red meat, beans, lentils, spinach, fortified cereals, and pumpkin seeds. Pair with vitamin C for better absorption."
+  },
+  {
+    "instruction": "Describe symptoms of aortic aneurysm.",
+    "input": "",
+    "output": "Aortic aneurysm may cause deep constant pain in abdomen/back, pulsing sensation, and sudden severe pain if rupturing."
+  },
+  {
+    "instruction": "Tips for maintaining healthy blood pressure.",
+    "input": "",
+    "output": "Maintain healthy BP through low-sodium diet, regular exercise, weight management, limited alcohol, no smoking, and stress reduction."
+  },
+  {
+    "instruction": "What first aid for dislocated joint?",
+    "input": "",
+    "output": "Immobilize joint in position found, apply ice, elevate, give pain relief, and seek immediate medical attention. Do not attempt to relocate."
+  },
+  {
+    "instruction": "How does excessive screen time affect health?",
+    "input": "",
+    "output": "Excessive screen time can cause eye strain, poor posture, sleep disruption, reduced physical activity, and mental health issues."
+  },
+  {
+    "instruction": "What are symptoms of diverticulosis vs diverticulitis?",
+    "input": "",
+    "output": "Diverticulosis is often asymptomatic. Diverticulitis adds inflammation with pain, fever, and bowel changes."
+  },
+  {
+    "instruction": "List common side effects of antidepressants in elderly.",
+    "input": "",
+    "output": "In elderly, antidepressants may increase fall risk, cause confusion, hyponatremia, and anticholinergic effects."
+  },
+  {
+    "instruction": "Benefits of nuts in daily diet.",
+    "input": "",
+    "output": "Nuts provide healthy fats, protein, fiber, vitamins, and minerals. They support heart health and help with satiety."
+  },
+  {
+    "instruction": "What to do in case of severe allergic reaction (anaphylaxis)?",
+    "input": "",
+    "output": "Use epinephrine auto-injector immediately if available, call emergency services, position person comfortably, and monitor closely."
+  },
+  {
+    "instruction": "Describe symptoms of basal cell carcinoma.",
+    "input": "",
+    "output": "Basal cell carcinoma often appears as pearly bump, scar-like area, or sore that doesn't heal on sun-exposed skin."
+  },
+  {
+    "instruction": "How to improve gut health naturally?",
+    "input": "",
+    "output": "Improve gut health with fiber-rich diet, fermented foods, prebiotics, adequate hydration, sleep, and stress management."
+  },
+  {
+    "instruction": "What are warning signs of suicide?",
+    "input": "",
+    "output": "Warning signs include talking about wanting to die, giving away possessions, increased substance use, withdrawal, and mood swings. Seek immediate help."
+  },
+  {
+    "instruction": "First aid steps for frostbite on fingers.",
+    "input": "",
+    "output": "Gently rewarm in warm water, protect from further cold, avoid rubbing or direct heat, and seek medical evaluation."
+  },
+  {
+    "instruction": "What nutrition is needed during pregnancy?",
+    "input": "",
+    "output": "Pregnancy requires extra folic acid, iron, calcium, protein, and omega-3s. Prenatal vitamins and balanced diet are recommended."
+  },
+  {
+    "instruction": "List symptoms of adrenal fatigue.",
+    "input": "",
+    "output": "Adrenal fatigue symptoms may include body aches, fatigue, nervousness, sleep disturbances, and digestive issues (though controversial diagnosis)."
+  },
+  {
+    "instruction": "How to treat minor cuts at home.",
+    "input": "",
+    "output": "Clean with mild soap and water, apply antibiotic ointment, cover with sterile bandage, and change daily. Watch for infection signs."
+  },
+  {
+    "instruction": "Benefits of strength training for women.",
+    "input": "",
+    "output": "Strength training builds bone density, boosts metabolism, improves body composition, and enhances overall strength and confidence."
+  },
+  {
+    "instruction": "What are symptoms of carbon monoxide poisoning?",
+    "input": "",
+    "output": "Carbon monoxide poisoning causes headache, dizziness, nausea, confusion, cherry-red skin, and loss of consciousness. Get fresh air and medical help."
+  },
+  {
+    "instruction": "Describe a heart-healthy diet.",
+    "input": "",
+    "output": "Heart-healthy diet limits saturated fat, trans fat, sodium; emphasizes vegetables, fruits, whole grains, fish, nuts, and olive oil."
+  },
+  {
+    "instruction": "What first aid for electric burn?",
+    "input": "",
+    "output": "Ensure scene is safe, turn off power, check ABCs (airway, breathing, circulation), cover burns with sterile dressing, and seek emergency care."
+  },
+  {
+    "instruction": "How much sleep do teenagers need?",
+    "input": "",
+    "output": "Teenagers need 8-10 hours of sleep per night for optimal growth, learning, and emotional regulation."
+  },
+  {
+    "instruction": "What are side effects of radiation therapy?",
+    "input": "",
+    "output": "Radiation therapy side effects include fatigue, skin changes at site, loss of appetite, and specific effects depending on treatment area."
+  },
+  {
+    "instruction": "Tips for preventing back pain.",
+    "input": "",
+    "output": "Prevent back pain with good posture, proper lifting technique, regular core strengthening, healthy weight, and ergonomic workspace."
+  },
+  {
+    "instruction": "What symptoms indicate gallbladder issues?",
+    "input": "",
+    "output": "Gallbladder problems cause pain in upper right abdomen after fatty meals, nausea, vomiting, and jaundice if blocked."
+  },
+  {
+    "instruction": "How does gratitude practice help mental health?",
+    "input": "",
+    "output": "Gratitude practice shifts focus to positives, reduces depression, increases resilience, and improves sleep and relationships."
+  },
+  {
+    "instruction": "First aid for heat exhaustion.",
+    "input": "",
+    "output": "Move to cool area, loosen clothing, sip cool fluids, apply cool wet cloths, rest. Progresses to heatstroke if untreated."
+  },
+  {
+    "instruction": "What are benefits of berries?",
+    "input": "",
+    "output": "Berries are packed with antioxidants, fiber, vitamins, support brain health, reduce inflammation, and may lower chronic disease risk."
+  },
+  {
+    "instruction": "Describe symptoms of deep vein thrombosis (DVT).",
+    "input": "",
+    "output": "DVT symptoms include leg swelling, pain or tenderness, warmth, and redness usually in one leg. Can lead to pulmonary embolism."
+  },
+  {
+    "instruction": "How to manage type 1 diabetes.",
+    "input": "",
+    "output": "Type 1 diabetes management involves insulin therapy, blood sugar monitoring, carbohydrate counting, healthy eating, and regular exercise."
+  },
+  {
+    "instruction": "What first aid for swallowed poison?",
+    "input": "",
+    "output": "Do not induce vomiting. Call poison control immediately with details of substance, amount, and time. Follow their instructions."
+  },
+  {
+    "instruction": "Benefits of walking daily.",
+    "input": "",
+    "output": "Daily walking improves cardiovascular fitness, aids weight control, strengthens bones, boosts mood, and is low-impact."
+  },
+  {
+    "instruction": "What are symptoms of hypercalcemia?",
+    "input": "",
+    "output": "Hypercalcemia symptoms include excessive thirst, frequent urination, nausea, constipation, bone pain, and confusion."
+  },
+  {
+    "instruction": "List ways to reduce sodium intake.",
+    "input": "",
+    "output": "Reduce sodium by choosing fresh foods, reading labels, using herbs/spices instead of salt, and rinsing canned beans/vegetables."
+  },
+  {
+    "instruction": "How to recognize signs of child abuse?",
+    "input": "",
+    "output": "Signs include unexplained injuries, fear of specific people, extreme behavior changes, poor hygiene, and developmental delays. Report suspicions."
+  },
+  {
+    "instruction": "What are side effects of hormone replacement therapy?",
+    "input": "",
+    "output": "HRT side effects can include bloating, breast tenderness, mood swings, increased clot risk, and spotting."
+  },
+  {
+    "instruction": "Describe symptoms of Bell's palsy.",
+    "input": "",
+    "output": "Bell's palsy causes sudden weakness or paralysis on one side of face, drooping mouth/eye, and difficulty closing eye."
+  },
+  {
+    "instruction": "First aid for puncture wound.",
+    "input": "",
+    "output": "Clean thoroughly, control bleeding, apply bandage, check tetanus status, and seek medical care especially if deep or dirty."
+  },
+  {
+    "instruction": "How does caffeine affect the body?",
+    "input": "",
+    "output": "Caffeine stimulates central nervous system, increases alertness, can raise heart rate and blood pressure, and may cause jitteriness in excess."
+  },
+  {
+    "instruction": "What nutrition supports wound healing?",
+    "input": "",
+    "output": "Wound healing benefits from protein, vitamin C, zinc, vitamin A, and adequate calories and hydration."
+  },
+  {
+    "instruction": "Signs of opioid overdose.",
+    "input": "",
+    "output": "Opioid overdose signs include pinpoint pupils, slow/shallow breathing, unresponsiveness, blue lips, and limp body. Use naloxone if available."
+  },
+  {
+    "instruction": "What are symptoms of mitral valve prolapse?",
+    "input": "",
+    "output": "Mitral valve prolapse may cause palpitations, fatigue, shortness of breath, dizziness, and chest discomfort."
+  },
+  {
+    "instruction": "How to practice progressive muscle relaxation.",
+    "input": "",
+    "output": "Tense each muscle group for 5 seconds then relax for 10-20 seconds, moving from toes to head to reduce anxiety and tension."
+  },
+  {
+    "instruction": "Benefits of community support for mental health.",
+    "input": "",
+    "output": "Community support reduces isolation, provides shared experiences, encouragement, and practical help during difficult times."
+  },
+  {
+    "instruction": "What first aid for tick bite?",
+    "input": "",
+    "output": "Remove tick with tweezers close to skin, clean area, save tick for identification, monitor for rash or fever."
+  },
+  {
+    "instruction": "How does laughter benefit health?",
+    "input": "",
+    "output": "Laughter reduces stress hormones, boosts immunity, improves mood, relieves pain, and enhances social connections."
+  },
+  {
+    "instruction": "List symptoms of serotonin syndrome.",
+    "input": "",
+    "output": "Serotonin syndrome includes agitation, confusion, rapid heart rate, dilated pupils, muscle rigidity, and tremors. It is a medical emergency."
+  },
+  {
+    "instruction": "What are healthy cooking methods?",
+    "input": "",
+    "output": "Healthy cooking methods include steaming, grilling, baking, stir-frying with little oil, and poaching instead of deep-frying."
+  },
+  {
+    "instruction": "Describe symptoms of transient ischemic attack (TIA).",
+    "input": "",
+    "output": "TIA (mini-stroke) symptoms are temporary and similar to stroke but resolve quickly. It is a warning sign requiring urgent evaluation."
+  },
+  {
+    "instruction": "How to maintain bone health after menopause?",
+    "input": "",
+    "output": "Post-menopause bone health is supported by calcium, vitamin D, weight-bearing exercise, and possibly medications if osteoporosis risk is high."
+  },
+  {
+    "instruction": "What side effects of COVID-19 vaccines?",
+    "input": "",
+    "output": "Common side effects are arm soreness, fatigue, headache, mild fever, usually resolving in 1-2 days. Benefits outweigh risks."
+  },
+  {
+    "instruction": "First aid for bleeding gums.",
+    "input": "",
+    "output": "Gently brush and floss, rinse with salt water, apply pressure with clean gauze. See dentist if persistent."
+  },
+  {
+    "instruction": "Benefits of social media breaks.",
+    "input": "",
+    "output": "Social media breaks reduce anxiety, improve sleep, increase real-life connections, and enhance present-moment awareness."
+  },
+  {
+    "instruction": "What are symptoms of pelvic inflammatory disease?",
+    "input": "",
+    "output": "PID symptoms include lower abdominal pain, fever, unusual vaginal discharge, painful intercourse, and irregular bleeding."
+  },
+  {
+    "instruction": "How to create a balanced weekly meal plan?",
+    "input": "",
+    "output": "Include variety of proteins, vegetables, fruits, whole grains, and healthy fats. Plan ahead, batch cook, and adjust for preferences and schedule."
+  },
+  {
+    "instruction": "Describe signs of melanoma.",
+    "input": "",
+    "output": "Melanoma often shows changing mole with irregular border, multiple colors, diameter larger than pencil eraser, or evolving."
+  },
+  {
+    "instruction": "What first aid for foreign object in ear?",
+    "input": "",
+    "output": "Do not attempt removal if deep. Tilt head, try gentle irrigation with warm water, or seek professional medical help."
+  },
+  {
+    "instruction": "How does gratitude journaling work?",
+    "input": "",
+    "output": "Write down 3-5 things you are grateful for daily. Focus on details and feelings to rewire brain for positivity."
+  },
+  {
+    "instruction": "What are symptoms of endometriosis flare?",
+    "input": "",
+    "output": "Endometriosis flares involve intense pelvic pain, heavy periods, fatigue, digestive issues, and pain during sex or bowel movements."
+  },
+  {
+    "instruction": "Tips for healthy aging.",
+    "input": "",
+    "output": "Stay physically active, eat nutrient-rich foods, keep mind engaged, maintain social connections, manage chronic conditions, and get regular check-ups."
+  },
+  {
+    "instruction": "What are side effects of steroid inhalers?",
+    "input": "",
+    "output": "Inhaled steroids may cause hoarseness, oral thrush, and cough. Rinse mouth after use to minimize side effects."
+  },
+  {
+    "instruction": "How to perform infant CPR?",
+    "input": "",
+    "output": "For infants: 30 compressions (1.5 inches deep) with 2 fingers on lower breastbone, 2 rescue breaths covering mouth and nose."
+  },
+  {
+    "instruction": "Benefits of cold showers.",
+    "input": "",
+    "output": "Cold showers may improve circulation, alertness, mood, immune response, and muscle recovery."
+  },
+  {
+    "instruction": "What symptoms indicate kidney infection?",
+    "input": "",
+    "output": "Kidney infection symptoms include back/side pain, fever, chills, nausea, frequent painful urination, and cloudy urine."
+  },
+  {
+    "instruction": "Describe a mindful breathing exercise.",
+    "input": "",
+    "output": "Focus on breath: inhale slowly counting to 4, hold 4, exhale 6. Repeat 5-10 minutes to center yourself."
+  },
+  {
+    "instruction": "How to prevent urinary tract infections?",
+    "input": "",
+    "output": "Prevent UTIs by staying hydrated, urinating after intercourse, wiping front to back, avoiding irritating products, and cranberry products may help."
+  },
+  {
+    "instruction": "What first aid for chemical burn in eye?",
+    "input": "",
+    "output": "Flush eye with lukewarm water or saline for at least 20 minutes, holding eyelids open. Seek emergency eye care immediately."
+  },
+  {
+    "instruction": "List symptoms of autoimmune hepatitis.",
+    "input": "",
+    "output": "Autoimmune hepatitis symptoms include fatigue, jaundice, abdominal discomfort, joint pain, and itching."
+  },
+  {
+    "instruction": "How does music therapy help mental health?",
+    "input": "",
+    "output": "Music therapy reduces anxiety, improves mood, aids emotional expression, supports memory in dementia, and enhances social interaction."
+  },
+  {
+    "instruction": "What are healthy alternatives to sugar?",
+    "input": "",
+    "output": "Healthy sugar alternatives include fresh/dried fruit, stevia, monk fruit, small amounts of honey or maple syrup."
+  },
+  {
+    "instruction": "Describe symptoms of spinal stenosis.",
+    "input": "",
+    "output": "Spinal stenosis causes back/neck pain, numbness, tingling, weakness in limbs, and pain that worsens with standing/walking."
+  },
+  {
+    "instruction": "What to do if someone has a panic attack?",
+    "input": "",
+    "output": "Stay calm, reassure them it's temporary, encourage slow breathing, remove from triggers, and suggest grounding techniques."
+  },
+  {
+    "instruction": "Benefits of fermented foods.",
+    "input": "",
+    "output": "Fermented foods like yogurt, kimchi, sauerkraut provide probiotics that support gut microbiome, digestion, and immunity."
+  },
+  {
+    "instruction": "First aid for avulsed tooth.",
+    "input": "",
+    "output": "Handle tooth by crown, rinse gently, reinsert if possible, or store in milk/saline. See dentist immediately."
+  },
+  {
+    "instruction": "How to build emotional intelligence?",
+    "input": "",
+    "output": "Develop self-awareness, self-regulation, motivation, empathy, and social skills through reflection, feedback, and practice."
+  },
+  {
+    "instruction": "What are symptoms of hepatitis C?",
+    "input": "",
+    "output": "Hepatitis C is often silent but can cause fatigue, jaundice, dark urine, abdominal pain, and joint pain when chronic."
+  },
+  {
+    "instruction": "Tips for digital detox.",
+    "input": "",
+    "output": "Set screen-free times, replace scrolling with hobbies, use apps to limit usage, and engage in offline activities."
+  },
+  {
+    "instruction": "What first aid for hypothermia in wilderness?",
+    "input": "",
+    "output": "Insulate from ground and wind, share body heat, give warm sweet drinks if conscious, prevent further heat loss."
+  },
+  {
+    "instruction": "How does hydration affect skin health?",
+    "input": "",
+    "output": "Proper hydration keeps skin supple, reduces dryness, supports elasticity, and helps flush toxins."
+  },
+  {
+    "instruction": "Describe symptoms of Raynaud's phenomenon.",
+    "input": "",
+    "output": "Raynaud's causes fingers/toes to turn white/blue then red in response to cold or stress due to blood vessel spasm."
+  },
+  {
+    "instruction": "What are benefits of resistance bands?",
+    "input": "",
+    "output": "Resistance bands are portable, versatile, joint-friendly, and effective for strength training at all fitness levels."
+  },
+  {
+    "instruction": "How to recognize signs of elder abuse?",
+    "input": "",
+    "output": "Signs include unexplained bruises, poor hygiene, sudden financial changes, withdrawal, and fear of caregiver."
+  },
+  {
+    "instruction": "What nutrition is important for athletes?",
+    "input": "",
+    "output": "Athletes need higher carbohydrates for energy, protein for muscle repair, electrolytes, and adequate hydration."
+  },
+  {
+    "instruction": "First aid for bleeding from ear.",
+    "input": "",
+    "output": "Do not block ear. Cover loosely with sterile dressing. Seek medical attention as it may indicate serious injury."
+  },
+  {
+    "instruction": "Benefits of spending time in sunlight.",
+    "input": "",
+    "output": "Moderate sunlight boosts vitamin D, improves mood via serotonin, regulates sleep, and supports bone health."
+  },
+  {
+    "instruction": "What symptoms indicate uterine fibroids?",
+    "input": "",
+    "output": "Uterine fibroids may cause heavy menstrual bleeding, pelvic pain/pressure, frequent urination, and constipation."
+  },
+  {
+    "instruction": "How to practice self-compassion?",
+    "input": "",
+    "output": "Treat yourself with kindness during failures, recognize common humanity, and practice mindfulness of emotions."
+  },
+  {
+    "instruction": "What are side effects of blood thinners?",
+    "input": "",
+    "output": "Blood thinners increase bleeding risk, cause easy bruising, and require monitoring for interactions."
+  },
+  {
+    "instruction": "Describe symptoms of interstitial cystitis.",
+    "input": "",
+    "output": "Interstitial cystitis causes chronic pelvic pain, frequent urgent urination, and pain during bladder filling."
+  },
+  {
+    "instruction": "Tips for better posture.",
+    "input": "",
+    "output": "Sit/stand tall, shoulders back, screen at eye level, strengthen core and back muscles, take movement breaks."
+  },
+  {
+    "instruction": "What first aid for venomous spider bite?",
+    "input": "",
+    "output": "Clean area, apply ice, elevate, seek medical help especially for brown recluse or black widow bites."
+  },
+  {
+    "instruction": "How does forgiveness benefit mental health?",
+    "input": "",
+    "output": "Forgiveness reduces anger, stress, and rumination while improving emotional well-being and relationships."
+  },
+  {
+    "instruction": "What are symptoms of POTS syndrome?",
+    "input": "",
+    "output": "POTS causes dizziness upon standing, rapid heartbeat, fatigue, fainting, and brain fog."
+  },
+  {
+    "instruction": "Benefits of meal prepping.",
+    "input": "",
+    "output": "Meal prepping saves time, reduces stress, controls portions, encourages healthier choices, and saves money."
+  },
+  {
+    "instruction": "What first aid for swallowed foreign object?",
+    "input": "",
+    "output": "If breathing normally, monitor passage. Seek immediate care if choking, pain, or vomiting blood."
+  },
+  {
+    "instruction": "How to manage fibromyalgia flare-ups?",
+    "input": "",
+    "output": "During flares rest, use heat/cold therapy, gentle movement, stress reduction, and follow prescribed medications."
+  },
+  {
+    "instruction": "Describe symptoms of acoustic neuroma.",
+    "input": "",
+    "output": "Acoustic neuroma symptoms include gradual hearing loss, tinnitus, balance problems, and facial numbness."
+  },
+  {
+    "instruction": "What are healthy bedtime routines?",
+    "input": "",
+    "output": "Healthy bedtime routines include dim lights, no screens 1 hour before bed, reading, relaxation, and consistent schedule."
+  },
+  {
+    "instruction": "What side effects of immunotherapy drugs?",
+    "input": "",
+    "output": "Immunotherapy can cause immune-related adverse events like rash, diarrhea, thyroid issues, or inflammation of organs."
+  },
+  {
+    "instruction": "How to prevent traveler's diarrhea?",
+    "input": "",
+    "output": "Drink bottled water, avoid ice, peel fruits, eat hot cooked foods, practice hand hygiene."
+  },
+  {
+    "instruction": "What symptoms indicate ovarian cancer?",
+    "input": "",
+    "output": "Ovarian cancer symptoms include persistent bloating, pelvic/abdominal pain, feeling full quickly, and urinary urgency."
+  },
+  {
+    "instruction": "Benefits of art therapy.",
+    "input": "",
+    "output": "Art therapy facilitates emotional expression, reduces anxiety, improves self-esteem, and supports trauma processing."
+  },
+  {
+    "instruction": "First aid for chemical spill on skin.",
+    "input": "",
+    "output": "Remove contaminated clothing, flush skin with large amounts of water for 15-20 minutes. Seek medical help."
+  },
+  {
+    "instruction": "How does social isolation affect health?",
+    "input": "",
+    "output": "Social isolation increases risk of depression, cognitive decline, heart disease, and premature death."
+  },
+  {
+    "instruction": "What are symptoms of Hashimoto's thyroiditis?",
+    "input": "",
+    "output": "Hashimoto's symptoms mirror hypothyroidism: fatigue, weight gain, cold intolerance, constipation, and dry skin."
+  },
+  {
+    "instruction": "Tips for mindful eating during holidays.",
+    "input": "",
+    "output": "Eat slowly, savor flavors, listen to hunger cues, choose smaller portions of favorites, and balance with vegetables."
+  },
+  {
+    "instruction": "Describe symptoms of cluster headaches.",
+    "input": "",
+    "output": "Cluster headaches cause severe unilateral pain around eye, tearing, nasal congestion, occurring in clusters."
+  },
+  {
+    "instruction": "What first aid for broken nose?",
+    "input": "",
+    "output": "Apply cold compress, control bleeding, seek medical evaluation for possible X-ray and realignment."
+  },
+  {
+    "instruction": "How to support breastfeeding mothers?",
+    "input": "",
+    "output": "Provide practical help, emotional encouragement, ensure access to lactation consultants, and respect feeding choices."
+  },
+  {
+    "instruction": "What are symptoms of sarcoidosis?",
+    "input": "",
+    "output": "Sarcoidosis symptoms include fatigue, swollen lymph nodes, weight loss, cough, and skin or eye lesions."
+  },
+  {
+    "instruction": "Benefits of volunteering for mental health.",
+    "input": "",
+    "output": "Volunteering increases purpose, social connections, self-esteem, and reduces depression symptoms."
+  },
+  {
+    "instruction": "What nutrition helps with anemia?",
+    "input": "",
+    "output": "Iron-rich foods, vitamin C for absorption, folate, and B12 are key for managing different types of anemia."
+  },
+  {
+    "instruction": "How to handle a dislodged dental crown?",
+    "input": "",
+    "output": "Clean crown, try to re-cement with temporary dental adhesive or keep safe and see dentist promptly."
+  },
+  {
+    "instruction": "Describe symptoms of trigeminal neuralgia.",
+    "input": "",
+    "output": "Trigeminal neuralgia causes sudden severe facial pain like electric shock triggered by touch or chewing."
+  },
+  {
+    "instruction": "What first aid for jellyfish sting?",
+    "input": "",
+    "output": "Rinse with seawater, remove tentacles with tweezers, apply vinegar or hot water depending on species."
+  },
+  {
+    "instruction": "How does nature therapy (ecotherapy) work?",
+    "input": "",
+    "output": "Nature therapy uses outdoor activities to reduce stress, improve mood, attention, and physical fitness."
+  },
+  {
+    "instruction": "What are symptoms of primary biliary cholangitis?",
+    "input": "",
+    "output": "Primary biliary cholangitis symptoms include fatigue, itching, dry eyes/mouth, and jaundice in later stages."
+  },
+  {
+    "instruction": "Tips for managing holiday stress.",
+    "input": "",
+    "output": "Set realistic expectations, plan ahead, say no when needed, prioritize self-care, and focus on meaningful connections."
+  },
+  {
+    "instruction": "What side effects of biologic medications?",
+    "input": "",
+    "output": "Biologics may increase infection risk, cause injection site reactions, and rarely trigger autoimmune issues."
+  },
+  {
+    "instruction": "How to recognize signs of hearing loss?",
+    "input": "",
+    "output": "Signs include difficulty hearing conversations, asking for repeats, turning up volume, and withdrawal from social situations."
+  },
+  {
+    "instruction": "What first aid for swallowed button battery?",
+    "input": "",
+    "output": "Do not induce vomiting. Seek emergency care immediately as batteries can cause serious internal burns."
+  },
+  {
+    "instruction": "Benefits of tai chi for older adults.",
+    "input": "",
+    "output": "Tai chi improves balance, flexibility, strength, reduces fall risk, and promotes relaxation."
+  },
+  {
+    "instruction": "Describe symptoms of Creutzfeldt-Jakob disease.",
+    "input": "",
+    "output": "CJD causes rapid mental deterioration, memory loss, personality changes, and movement problems."
+  },
+  {
+    "instruction": "How to practice body scan meditation?",
+    "input": "",
+    "output": "Lie down, mentally scan body from toes to head, noticing sensations without judgment to release tension."
+  },
+  {
+    "instruction": "What are symptoms of mast cell activation syndrome?",
+    "input": "",
+    "output": "MCAS causes recurrent flushing, hives, anaphylaxis-like episodes, GI symptoms, and fatigue."
+  },
+  {
+    "instruction": "Tips for sustainable healthy eating.",
+    "input": "",
+    "output": "Choose seasonal local produce, reduce food waste, eat more plants, choose ethical proteins, and cook at home."
+  },
+  {
+    "instruction": "What first aid for corneal abrasion?",
+    "input": "",
+    "output": "Rinse eye, avoid rubbing, use artificial tears, wear sunglasses, and see eye doctor promptly."
+  },
+  {
+    "instruction": "How does positive psychology improve well-being?",
+    "input": "",
+    "output": "Positive psychology focuses on strengths, gratitude, optimism, and flow states to enhance life satisfaction."
+  },
+  {
+    "instruction": "What are symptoms of alpha-gal syndrome?",
+    "input": "",
+    "output": "Alpha-gal syndrome causes delayed allergic reaction to red meat, often with hives, GI distress, or anaphylaxis."
+  },
+  {
+    "instruction": "Benefits of pet ownership for mental health.",
+    "input": "",
+    "output": "Pets reduce loneliness, lower cortisol, encourage exercise and routine, and provide unconditional love."
+  },
+  {
+    "instruction": "What first aid for penile fracture?",
+    "input": "",
+    "output": "This is a urologic emergency. Apply ice, avoid urination if possible, and seek immediate surgical care."
+  },
+  {
+    "instruction": "How to create a personal wellness plan?",
+    "input": "",
+    "output": "Assess current health, set SMART goals for nutrition/exercise/sleep/stress, track progress, and adjust regularly."
+  },
+  {
+    "instruction": "Describe symptoms of narcolepsy.",
+    "input": "",
+    "output": "Narcolepsy features excessive daytime sleepiness, cataplexy, sleep paralysis, and hypnagogic hallucinations."
+  },
+  {
+    "instruction": "What are healthy coping mechanisms for stress?",
+    "input": "",
+    "output": "Healthy coping includes exercise, talking to friends, hobbies, mindfulness, and problem-solving instead of avoidance."
+  },
+  {
+    "instruction": "First aid for vaginal bleeding in pregnancy.",
+    "input": "",
+    "output": "Rest, avoid intercourse, contact healthcare provider immediately. Can indicate serious complications."
+  },
+  {
+    "instruction": "Benefits of learning a new skill for brain health.",
+    "input": "",
+    "output": "Learning new skills builds cognitive reserve, improves memory, boosts confidence, and delays cognitive decline."
+  }
+]

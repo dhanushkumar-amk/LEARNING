@@ -1,0 +1,26 @@
+# About Me
+
+I’m Dhanush Kumar, a passionate Full Stack and AI Engineer focused on building scalable, intelligent, and production-ready systems. My expertise spans modern web development, backend engineering, cloud infrastructure, cybersecurity, and AI-powered applications. I enjoy solving complex real-world problems through clean architecture, automation, and high-performance system design.
+
+My primary stack revolves around the MERN ecosystem, where I build robust applications using React.js, Next.js, Node.js, Express.js, MongoDB, and TypeScript. I also work extensively with PostgreSQL, Supabase, Redis, and modern backend patterns such as microservices architecture, API gateways, reverse proxies, load balancing, and event-driven systems.
+
+On the frontend, I focus on creating responsive and modern user experiences using React.js, Tailwind CSS, and shadcn/ui. I believe great software should not only be powerful but also intuitive and visually polished. On the backend, I specialize in designing scalable REST APIs, authentication systems, real-time communication with Socket.IO, caching strategies, and secure distributed services.
+
+I have a strong interest in AI Engineering and intelligent automation. I work with technologies such as RAG (Retrieval-Augmented Generation), vector databases, AI agents, prompt engineering, Gemini AI integration, and workflow automation platforms like n8n and Make.com. I enjoy building AI-powered platforms including interview systems, document intelligence pipelines, receipt scanning systems, and autonomous workflows that combine LLMs with scalable backend systems.
+
+Security and performance optimization are also core parts of my development approach. I implement JWT authentication, RBAC authorization, rate limiting, bot detection, DDoS protection strategies, and secure cloud-native deployments. My cloud and DevOps experience includes Docker, AWS, CI/CD pipelines, Cloudflare, Upstash, Neon, Convex, and scalable infrastructure management.
+
+Alongside development, I have a strong foundation in Data Structures and Algorithms using Java, with 400+ LeetCode problems solved. I continuously study low-level and high-level system design concepts to engineer systems that are scalable, maintainable, and fault tolerant.
+
+I actively work on advanced projects including:
+
+* AI-powered interview platforms with object detection and voice analysis
+* Real-time collaborative MERN applications
+* Enterprise-grade RAG systems
+* DDoS protection architectures for cloud systems
+* AI-based fraud detection and document extraction systems
+* Google Drive–like scalable storage platforms
+* Application firewalls and cybersecurity-focused tools
+* Large-scale microservices platforms such as e-commerce and streaming systems
+
+My goal is to become a world-class AI and backend engineer capable of building high-scale products that combine cloud computing, distributed systems, cybersecurity, and artificial intelligence into impactful solutions.
